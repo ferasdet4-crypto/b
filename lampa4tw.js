@@ -1,26 +1,8 @@
-var _____WB$wombat$assign$function_____=function(name){return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name))||self[name];};if(!self.__WB_pmw){self.__WB_pmw=function(obj){this.__WB_source=obj;return this;}}{
-let window = _____WB$wombat$assign$function_____("window");
-let self = _____WB$wombat$assign$function_____("self");
-let document = _____WB$wombat$assign$function_____("document");
-let location = _____WB$wombat$assign$function_____("location");
-let top = _____WB$wombat$assign$function_____("top");
-let parent = _____WB$wombat$assign$function_____("parent");
-let frames = _____WB$wombat$assign$function_____("frames");
-let opens = _____WB$wombat$assign$function_____("opens");
 (function() {
     'use strict';
     
     // Google tag (gtag.js)
-/*    Lampa.Utils.putScriptAsync([
-        'https://web.archive.org/web/20240918224508/https://www.googletagmanager.com/gtag/js?id=G-6JBEE631LH'
-    ], function () {});
-    
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    
-    gtag('config', 'G-5G4KPMXX2V');*/
-    // Google tag (gtag.js)
+
   if (window.location.protocol === 'https:') {
     var Defined = {
         api: 'lampac',
