@@ -6,14 +6,14 @@
   if (window.location.protocol === 'https:') {
     var Defined = {
         api: 'lampac',
-        localhost: 'https://web.archive.org/web/20240918224508/https://showy.online/',
-        apn: 'https://web.archive.org/web/20240918224508/https://apn.watch/'
+        localhost: 'https://showy.online/',
+        apn: 'https://apn.watch/'
     };
   } else {
      var Defined = {
          api: 'lampac',
-         localhost: 'https://web.archive.org/web/20240918224508/http://showy.online/',
-         apn: 'https://web.archive.org/web/20240918224508/https://apn.watch/'
+         localhost: 'http://showy.online/',
+         apn: 'https://apn.watch/'
      };
   }
 
